@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="iso-8859-1"/>
         <title>Lucas Henrique</title>
         <link rel="stylesheet" href="css/estilos.css">
-    </head>
+    </head> 
     <body>
         <nav>
             <ul id="navbar">
@@ -15,16 +15,16 @@
                     <a href="#habilidades">Habilidades</a>
                 </li>
                 <li class="nav-link">
-                    <a href="#">Projetos</a>
+                    <a href="#projetos">Projetos</a>
                 </li>
                 <li class="nav-link">
-                    <a href="#">Contato</a>
+                    <a href="#contato">Contato</a>
                 </li>
             </ul>
         </nav>
         <main>
             <figure>
-                <img src="images/main.jpg">
+                <img src="images/main.jpg" alt="foto">
             </figure>
    
             <div id="textbox">
@@ -38,9 +38,99 @@
         <hr>
         <section id="habilidades">
             <h2>Habilidades</h2>
-            <br>
+            <h3>Tecnologias</h3>
+            <div id="tecnologias">
+                <table id="tabela-tecnologias">
+                    <thead>
+                        <tr>
+                            <th>Avançado</th>
+                            <th>Intermediário</th>
+                            <th>Básico</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="grid">
+                                    <figure>
+                                        <img class="imagem-tecnologias" src="images/html5.png" alt="html5">
+                                        <figcaption>HTML 5</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class="imagem-tecnologias" src="images/css3.jpg" alt="css3">
+                                        <figcaption>CSS 3</figcaption>
+                                    </figure>
+                                    <figure>
+                                            <img class="imagem-tecnologias" src="images/javascript.png" alt="javascript">
+                                        <figcaption>JavaScript ES6</figcaption>
+                                    </figure>
+                                </div>
+                            </td>
+                            <td class="coluna-meio">
+                                <div class="grid">
+                                    <figure>
+                                        <img class="imagem-tecnologias" src="images/php7.jpg" alt="php7">
+                                        <figcaption>PHP 7</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img class="imagem-tecnologias" src="images/bootstrap4.jpg" alt="bootstrap4">
+                                        <figcaption>Bootstrap 4</figcaption>
+                                    </figure>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="grid">
+                                    <figure>
+                                        <img class="imagem-tecnologias" src="images/jquery.jpg" alt="jquery">
+                                        <figcaption>jQuery</figcaption>
+                                    </figure>
+                                </div> 
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+                <p>
+                    <span>Básico&nbsp;</span>Tive pouco contato ou estou estudando no momento.
+                </p>
+                <p>
+                    <span>Intermediário&nbsp;</span> Já utilizei em algum trabalho ou projeto.
+                </p>
+                <p>
+                    <span>Avançado&nbsp;</span> Me sinto confortável ao utilizar.
+                </p>
             <h3>Certificados</h3>
+            <p>Em construção...</p>
         </section>
-
+        <hr>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <p>Em construção...</p>
+        </section>
+        <hr>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Em construção...</p>
+        </section>
+        <hr>
+        <footer>
+            <p>Redes Sociais</p>
+            <div id="social-media">
+                <a href="https://www.facebook.com/lucas5990" target="_blank">
+                    <img src="images/face.png" class="icone" alt="facebook">
+                </a>
+                <a href="https://github.com/Lucas5990" target="_blank">
+                    <img src="images/github.png" class="icone" alt="github">
+                </a>
+                <a href="https://www.linkedin.com/in/lucas-henrique-60a471178/" target="_blank">
+                    <img src="images/linkedin.png" class="icone" alt="linkedin">
+                </a>
+                <a href="https://www.instagram.com/_lucashenrique.andrade/?hl=pt-br" target="_blank">
+                    <img src="images/instagram.jpg" class="icone" alt="instagram">
+                </a>
+                
+            </div>
+            <p>2019 - Desenvolvido por Lucas Andrade</p>
+        </footer>
     </body>
 </html>
