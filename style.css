@@ -1,0 +1,259 @@
+@font-face{
+    font-family:fonte;
+    src:url(8bit.ttf);
+}
+
+@font-face{
+    font-family: algerian;
+    src:url(Algerian.ttf);
+}
+
+/* INDEX */
+
+#conteudo_index{
+    width:800px;
+    height:400px;
+    margin-top:105px;
+    margin-left:280px;
+    background-image: url("index.jpg");
+    border:5px solid white;
+    border-radius:1em 1em 1em 1em;
+    opacity: 1;
+}
+#texto_info{
+    width:700px;
+    height:280px;
+    background-color: white;
+    margin-left:50px;
+    margin-top: 50px;
+    border: 3px solid pink;
+    opacity: 0.75;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+}
+#texto span{
+    opacity:1;
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:rgb(40,40,40);
+}
+#botao_jogar{
+    width: 250px;
+    height: 120px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+#botao_info{
+    width: 250px;
+    height: 120px;
+    margin-left: 115px;
+    margin-top: 200px;
+}
+#botao_info:hover{
+    cursor: pointer;
+}
+#botao_jogar:hover{
+    cursor: pointer;
+}
+
+/* INTRODUÇÃO */
+
+#conteudo_intro{
+    width:800px;
+    height:400px;
+    margin-top:105px;
+    margin-left:280px;
+    background-image: url("fundo-inicial.jpg");
+    border:5px solid white;
+    border-radius:1em 1em 1em 1em;
+    opacity: 1;
+}
+#texto_intro{
+    width:700px;
+    height:80px;
+    background-color: white;
+    margin-left:50px;
+    margin-top: 60px;
+    border: 3px solid pink;
+    opacity: 0.75;
+}
+#texto_intro span{
+    opacity:1;
+    font-size:30px;
+    font-family: algerian;  
+    padding: 10px;
+
+}
+#botao_intro{
+    margin-top:150px;
+    margin-left: 250px;
+    width: 300px;
+    height: 100px;
+    border-radius: 2em 2em 2em 2em;
+    background-color: rgb(35,177,77);
+    opacity: 0;
+    cursor: pointer;
+}
+#botao_intro span{
+   color: white;
+   font-family: algerian;
+   font-size: 40px;
+   margin-left: 60px;
+   cursor: pointer;
+}
+#botao_intro:hover{
+    background-color: green;
+ }
+
+/* SLOT MACHINE */
+audio{
+    margin-left: 510px; 
+}
+h1{
+    padding: 0px;
+    margin-bottom: 0px;
+    font-size: 40px;
+    font-family: algerian;
+    margin-left: 580px;
+    color: floralwhite;
+}
+
+#conteudo_jackpot{
+    width:800px;
+    height:400px;
+    margin-top:40px;
+    margin-left:280px;
+    background-image: url("fundo_jackpot.jpg");
+    background-repeat: no-repeat;
+    border:5px solid white;
+    border-radius:1em 1em 1em 1em;
+    opacity: 1;
+}
+
+#img1{
+    width: 85px;
+    height: 116px;
+    margin-top:64px;
+    margin-left:232px;
+}
+#img2{
+    width: 85px;
+    height: 116px;
+    margin-top:64px;
+    margin-left:11px;
+}
+#img3{
+    width: 85px;
+    height: 116px;
+    margin-top:64px;
+    margin-left:14px;
+}
+#botao_parar{
+    margin-left: 610px;
+    margin-top: 90px;
+}
+.botao_parar{
+    width: 60px;
+    height: 60px;
+    opacity: 0;
+}
+.botao_parar:hover{
+    cursor: pointer;
+}
+#texto_jackpot{
+    width:700px;
+    height:80px;
+    background-color: white;
+    margin-left:50px;
+    margin-top: -30px;
+    border: 3px solid pink;
+    opacity: 0.75;
+    
+}
+#texto_jackpot span{
+    opacity:1;
+    font-size:30px;
+    font-family: algerian;  
+    padding: 10px;
+
+}
+#voltar{
+
+    width: 120px;
+    height: 120px;
+    float:left;
+}
+#voltar:hover{
+    cursor:pointer;
+}
+footer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+}
+#dinheiro{
+    
+    width: 120px;
+    height: 50px;
+    float: right;
+    margin-right: 420px;
+    margin-top: 30px;
+    font-size: 40px;
+    color:rgb(34,177,76);
+    font-family: algerian;
+}
+
+/* GAME OVER */
+
+#conteudo_gameover{
+    width:800px;
+    height:400px;
+    margin-top:105px;
+    margin-left:280px;
+    background-image: url("game_over1.jpg");
+    background-repeat: no-repeat;
+    border:5px solid white;
+    border-radius:1em 1em 1em 1em;
+    opacity: 1;
+}
+#botao_voltar{
+    width: 250px;
+    height: 120px;
+    margin-left: 280px;
+    margin-top: 255px;
+    cursor: pointer;
+}
+
+/* ENDING */
+
+#conteudo_ending{
+    width:800px;
+    height:400px;
+    margin-top:40px;
+    margin-left:280px;
+    background-image: url("eng_game1.jpg");
+    border:5px solid white;
+    border-radius:1em 1em 1em 1em;
+    opacity: 1;
+}
+#texto_ending{
+    width:700px;
+    height:80px;
+    background-color: white;
+    margin-left:50px;
+    margin-top: 300px;
+    border: 3px solid pink;
+    opacity: 0.75;
+}
+#texto_ending span{
+    opacity:1;
+    font-size:30px;
+    font-family: algerian;  
+    padding: 10px;
+
+}
